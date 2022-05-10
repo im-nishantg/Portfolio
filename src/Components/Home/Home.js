@@ -14,7 +14,7 @@ export default function Title() {
                     <p className="sub-heading"> A Student and a Web Developer.</p>
                 </div>
                 
-                <img src={pic}></img>
+                <img src={pic} alt="animated-pic"></img>
 
 
             </div>

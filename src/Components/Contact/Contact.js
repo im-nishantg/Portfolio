@@ -1,5 +1,4 @@
 import "./Contact.css";
-import { Button } from "react-bootstrap";
 
 export default function Contact() {
     return (
