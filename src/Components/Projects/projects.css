@@ -1,0 +1,50 @@
+#Projects{
+
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #FFDA77;;
+    padding: 7% 10% 4%;
+}
+
+#Projects img{
+
+    height: 30vh;
+}
+
+.github-link{
+    margin-right: 7%;
+    margin-top: 4%;
+    /* border: 1px solid black; */
+    float: right;
+}
+
+.card{
+    margin:5% 3%;
+   
+}
+
+.card:hover{
+    border: 1px solid black;
+    box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
+    transition: all 0.4s ease;
+}
+
+.projects-container{
+
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    
+}
+
+.links{
+    /* border: 1px solid black; */
+    margin-top: 10%;
+    position: relative;
+    bottom: 1px;
+    
+    
+}

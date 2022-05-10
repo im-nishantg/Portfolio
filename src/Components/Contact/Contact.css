@@ -1,0 +1,121 @@
+#Contact
+{
+    background-color: #fff ;
+    padding: 8% 8% 4%;
+}
+
+#Contact p{
+    color: #212529;
+    font-size: 1.3rem;
+    font-family: "Roboto", 'sans seriff';
+    font-weight: 300;
+}
+
+.contact-container{
+
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 10% ;
+}
+
+.form-container{
+
+    /* border: 1px solid black; */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-right: 8%;
+    margin-bottom: 4%;
+
+}
+
+.form-container input, textarea{
+    margin: 2% 3%;
+    border: none;
+    padding: 0.5rem;
+    background: transparent;
+    border-bottom: 1px solid #ced4da; 
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    color:#757575;
+    width: 43%;
+}
+
+.form-container textarea{
+    display: block;
+    resize: none !important;
+    width: 92%!important;
+    margin-left: 3% !important;
+    margin-top: 4%;
+}
+
+.form-container input:focus, textarea:focus{
+
+    outline: none;
+    border-bottom: 2px solid #007bff;
+}
+
+.form-container button{
+    display: block;
+    margin:7% 3%;
+}
+
+input[name="Subject"]{
+    display: block;
+    width: 92%;
+}
+
+.socials{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+#Contact i{
+    font-size: 2.2rem;
+    color: #212529;
+    margin: 10px;
+    /* border: 1px solid black; */
+    
+}
+
+#Contact i:hover{
+
+    color: #007bff;
+}
+
+@media (max-width:958px) {
+
+    .socials
+    {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 70%;
+
+    }
+
+    .form-container{
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    #Contact button{
+        font-size: 0.9rem !important;
+        width: 92%;
+    }
+}
+
+@media (max-width:800px)        
+{
+    input[name="Name"], input[name="Email"]{
+        display: block ;
+        width: 92%;
+        margin: 4% 3%!important;
+    }
+}
+

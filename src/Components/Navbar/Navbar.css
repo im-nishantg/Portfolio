@@ -1,0 +1,24 @@
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    color: #FFF8F3 !important;
+    margin: 0 5%;
+}
+
+.navbar-nav{
+    margin:  0 1% ;
+    /* border: 1px solid black; */
+}
+
+a:hover{
+    color: #b25f1b !important;
+    transition: 0.3s ease;
+}
+
+@media (max-width:720px)
+{
+    .nav-link{
+        font-size: 1.2rem;
+    }
+}
+

@@ -1,0 +1,115 @@
+#About {
+
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #FAF9F9;
+    padding: 7%;
+    padding-bottom: 1%;
+}
+
+.about-container {
+
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    flex-wrap: wrap-reverse;
+    padding: 4%;
+
+}
+
+.info {
+    width: 80%;
+    font-size: 1.1rem;
+    text-align: justify;
+    font-family: "Roboto", 'sans seriff';
+    font-weight: 400;
+    color: #212529;
+    line-height: 2;
+}
+
+.location {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.my-img {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 7%;
+}
+
+.my-img img {
+    width: 50%;
+    margin: 4% 0;
+    /* border: 1px solid black; */
+}
+
+#About span {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+@media (min-width:1420px) {
+    .info {
+        width: 40%;
+        margin-bottom: 8%;
+        margin-right: 14%;
+    }
+
+    .about-container {
+        padding-right: 0;
+    }
+}
+
+/* for mobile devices */
+
+@media (max-width:520px) {
+    .info {
+        font-size: 0.8rem;
+    }
+
+    #About span {
+
+        font-size: 1.2rem;
+    }
+
+    .heading-text {
+        font-size: 1.8rem;
+    }
+
+    .card {
+        width: 16rem !important;    
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-text,
+    .github-link,
+    #Contact p,
+    .form-container input,
+    textarea {
+        font-size: 0.9rem !important;
+    }
+
+    #Contact i {
+
+        font-size: 1.5rem !important;
+    }
+
+
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
