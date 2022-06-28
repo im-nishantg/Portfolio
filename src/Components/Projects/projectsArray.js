@@ -41,7 +41,7 @@ const arr=[{
     src: quizIcon,
     title: "Quiz App",
     desc: "This is a fully responsive Quiz Web App made with ReactJS. Here, Result will be shown only after you attemt all 5 questions.",
-    link: "https://quiz-app-n.herokuapp.com/",
+    link: "https://quiz-app-n.netlify.app/",
     code: "https://github.com/im-nishantg/Quiz-App"
     
 },

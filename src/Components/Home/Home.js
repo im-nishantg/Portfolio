@@ -8,13 +8,13 @@ export default function Title() {
         <section id="Home">
             <NavC />
             <div className="title-main">
-                
-                <div className="title-text">
+
+                <div className="title-text" data-aos="fade-up" data-aos-duration="2000">
                     <h1 className="heading">Hi ! I'm Nishant.</h1>
                     <p className="sub-heading"> A Student and a Web Developer.</p>
                 </div>
-                
-                <img src={pic} alt="animated-pic"></img>
+
+                <img src={pic} alt="animated-pic" data-aos="fade-left" data-aos-duration="1800" ></img>
 
 
             </div>

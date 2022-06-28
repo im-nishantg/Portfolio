@@ -57,7 +57,7 @@ const arr = [
 
 function iconBox(item) {
     return (
-        <div className="icon-box " key={Math.random()}>
+        <div className="icon-box " key={Math.random()} data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1200" >
             <div className="icon-div">
                 <img src={item.src} alt="react-logo"></img>
             </div>

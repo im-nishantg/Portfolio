@@ -17,7 +17,7 @@ export default function Contact() {
                     </form>
                 </div>
 
-                <div className="socials">
+                <div className="socials" data-aos="flip-left" data-aos-duration="1300">
                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nishantgore2000@gmail.com" target="__blank"> <i className="bi bi-envelope-fill"></i></a>
                    <a href="https://www.instagram.com/im_nishantg/"  target="__blank"> <i className="bi bi-instagram"></i></a>
                    <a href="https://www.facebook.com/profile.php?id=100004819177467" target="__blank"> <i className="bi bi-facebook"></i></a>
