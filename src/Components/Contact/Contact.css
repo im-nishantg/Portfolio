@@ -20,6 +20,7 @@
     align-content: center;
     flex-wrap: wrap;
     margin-top: 10% ;
+    overflow: hidden;
 }
 
 .form-container{

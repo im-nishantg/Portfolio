@@ -17,7 +17,7 @@
     margin-top: 3%;
     flex-wrap: wrap-reverse;
     padding: 4%;
-
+    overflow: hidden;
 }
 
 .info {
