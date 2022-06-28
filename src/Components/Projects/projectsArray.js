@@ -22,7 +22,7 @@ const arr=[{
 
     src: timerIcon,
     title: "CountDown Timer",
-    desc: " A CountDown Timer made with HTML, CSS and JS which will show days until upcoming New year.",
+    desc: " A CountDown Timer developed using HTML, CSS and JS which will show days until upcoming New year.",
     link: " https://im-nishantg.github.io/CountDown-Timer/",
     code: "https://github.com/im-nishantg/CountDown-Timer"
     
@@ -40,7 +40,7 @@ const arr=[{
 
     src: quizIcon,
     title: "Quiz App",
-    desc: "This is a fully responsive Quiz Web App made with ReactJS. Here, Result will be shown only after you attemt all 5 questions.",
+    desc: "This is a fully responsive Quiz Web App built with ReactJS. Here, The result will be shown only after you attempt all 5 questions.",
     link: "https://quiz-app-n.netlify.app/",
     code: "https://github.com/im-nishantg/Quiz-App"
     
@@ -49,7 +49,7 @@ const arr=[{
 
     src: tindogIcon,
     title: "Tindog",
-    desc: "Welcome to Tindog which is a Tinder for dogs. It is Made with HTML, CSS, JavaScript and BootStrap.",
+    desc: "Welcome to Tindog which is a Tinder for dogs. It is developed with HTML, CSS, JavaScript and BootStrap.",
     link: "https://im-nishantg.github.io/tindog/",
     code: "https://github.com/im-nishantg/tindog"
     
@@ -57,7 +57,7 @@ const arr=[{
 
     src: foodHubIcon,
     title: "Foodhub",
-    desc: "A Fully responsive Restaurant website made with HTML, CSS and Javascript. It's my First ever Web Dev Project!",
+    desc: "A fully responsive restaurant website built using HTML, CSS and Javascript. It's my first web dev project!",
     link: "https://im-nishantg.github.io/FoodHub/",
     code: "https://github.com/im-nishantg/FoodHub"
     

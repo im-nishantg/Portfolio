@@ -9,12 +9,12 @@ export default function Title() {
             <NavC />
             <div className="title-main">
 
-                <div className="title-text" data-aos="fade-up" data-aos-duration="2000">
+                <div className="title-text" data-aos="fade-up" data-aos-duration="1200">
                     <h1 className="heading">Hi ! I'm Nishant.</h1>
                     <p className="sub-heading"> A Student and a Web Developer.</p>
                 </div>
 
-                <img src={pic} alt="animated-pic" data-aos="fade-left" data-aos-duration="1800" ></img>
+                <img src={pic} alt="animated-pic" data-aos="fade-left" data-aos-duration="1300" ></img>
 
 
             </div>

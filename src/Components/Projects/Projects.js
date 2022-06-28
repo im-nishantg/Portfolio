@@ -5,7 +5,7 @@ import projectsArray from "./projectsArray";
 
 function projectBox(item) {
     return (
-        <Card style={{ width: '18rem' }} key={Math.random()}>
+        <Card style={{ width: '18rem' }} key={Math.random()} data-aos="fade-up" data-aos-duration="1000">
             <Card.Img variant="top" src={item.src} />
             <Card.Body>
                 <Card.Title>{item.title}</Card.Title>
